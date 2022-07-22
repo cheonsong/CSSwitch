@@ -1,0 +1,6 @@
+framework module Pods_CSSwitch_Example {
+  umbrella header "Pods-CSSwitch_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - CSSwitch (0.1.0)
+
+DEPENDENCIES:
+  - CSSwitch (from `../`)
+
+EXTERNAL SOURCES:
+  CSSwitch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSSwitch: 12aab7d4bfe9e97370e34384f6bc0df14dd4ddd5
+
+PODFILE CHECKSUM: 067a5875f8098addade7b9d077e8d8a033bd31c3
+
+COCOAPODS: 1.11.2

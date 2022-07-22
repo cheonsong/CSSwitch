@@ -1,0 +1,6 @@
+framework module CSSwitch {
+  umbrella header "CSSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}
