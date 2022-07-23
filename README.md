@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+  - iOS 9.0+
+  - Swift 5.0
+  
 ## Installation
 
 CSSwitch is available through [CocoaPods](https://cocoapods.org). To install
