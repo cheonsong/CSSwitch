@@ -105,8 +105,6 @@ public class CSSwitch: UIButton {
         }
     }
     
-    // 사용자가 설정할 수 있는 값
-    
     public var selectBorderColor: CGColor {
         get {
             return selectView.layer.borderColor ?? UIColor.clear.cgColor
@@ -265,6 +263,8 @@ public class CSSwitch: UIButton {
         deselectedTextColor = Default.DESELECT_TEXT_COLOR
         borderColor         = Default.BORDER_COLOR
         borderWidth         = Default.BORDER_WIDTH
+        selectBorderColor   = Default.BORDER_COLOR
+        selectBorderWidth   = Default.BORDER_WIDTH
         
         addSubview(selectView)
         addSubview(stackView)
@@ -345,10 +345,12 @@ public class CSSwitch: UIButton {
 }
 
 private struct Default {
-    static let SELECT_COLOR        = UIColor.white
-    static let SELECT_TEXT_COLOR   = UIColor.black
-    static let DESELECT_COLOR      = UIColor.clear
-    static let DESELECT_TEXT_COLOR = UIColor.lightGray
-    static let BORDER_COLOR        = UIColor.lightGray.cgColor
-    static let BORDER_WIDTH        = CGFloat(1)
+    static let SELECT_COLOR         = UIColor.white
+    static let SELECT_TEXT_COLOR    = UIColor.black
+    static let DESELECT_COLOR       = UIColor.clear
+    static let DESELECT_TEXT_COLOR  = UIColor.lightGray
+    static let BORDER_COLOR         = UIColor.lightGray.cgColor
+    static let BORDER_WIDTH         = CGFloat(1)
+    static let SELECT_BORDER_COLOR  = UIColor.clear.cgColor
+    static let SELECT_BORDER_WIDTH  = CGFloat(0)
 }
